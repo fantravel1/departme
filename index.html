@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DepartMe — Travel by Mood, Not Location</title>
+<meta name="description" content="Where should I travel when I'm burned out, heartbroken, or stuck? DepartMe builds mood-based travel journeys — not by destination, but by how you want to feel. Disappear, heal, escape, explore, or leap into a fresh start.">
+<meta name="keywords" content="mood travel, travel when burned out, where to travel when heartbroken, travel to disappear, best trips when feeling stuck, travel for anxiety, reset trip mental clarity, mood-based trip planning, emotional travel, solo travel healing, escape travel, fresh start travel, travel when lonely, travel when overwhelmed, travel to feel something again">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://departme.com/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="DepartMe — Travel by Mood, Not Location">
+<meta property="og:description" content="You don't pick a place. You pick a feeling. DepartMe builds journeys that match your emotional state.">
+<meta property="og:url" content="https://departme.com/">
+<meta property="og:site_name" content="DepartMe">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DepartMe — Travel by Mood, Not Location">
+<meta name="twitter:description" content="You don't pick a place. You pick a feeling. DepartMe builds journeys that match your emotional state.">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "DepartMe",
+  "url": "https://departme.com",
+  "description": "Travel by Mood, Not Location. DepartMe builds travel journeys based on emotional intention.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://departme.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "DepartMe",
+  "url": "https://departme.com",
+  "description": "Mood-first travel journeys for emotional reset."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where should I travel when I'm burned out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you're burned out, DepartMe recommends a \"Disappear\" journey — quiet coastal towns like the Azores, forest retreats in rural Japan, or the Scottish Highlands. These itineraries pair low-stimulation environments with rituals like morning silence, analog cafés, ocean walks, and ambient soundscapes to help your nervous system decompress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I go when I'm heartbroken?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Heartbreak calls for a \"Heal\" journey. DepartMe builds itineraries around places that hold space for grief without forcing positivity — think Kyoto's temple gardens, Portugal's quiet Alentejo coast, or the stillness of rural Iceland. Each journey includes daily rituals like tea ceremonies, journaling prompts, and sunset walks designed to move through sadness, not around it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I travel to disappear for a few days?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DepartMe's \"Disappear\" journeys are built exactly for this. They take you to places where you can drop off the grid — volcanic islands, remote coastal villages, deep forest retreats. Itineraries include 3-day and 7-day options with minimal planning required, paired with rituals for solitude and sensory quiet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best places to travel when I feel stuck in life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Feeling stuck calls for a \"Motion\" journey. DepartMe pairs cities with strong walking culture — Lisbon's hills, Tokyo's endless neighborhoods, Mexico City's layered districts — with nature that physically moves you: coastal trails, mountain passes, river walks. The goal is to break the feeling of stagnation through literal and emotional movement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I go when I'm anxious and overwhelmed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anxiety and overwhelm respond to DepartMe's \"Quiet\" journeys — destinations chosen for low sensory load, gentle natural environments, and slow daily rhythms. Think Norwegian fjord towns, rural Provence, or New Zealand's South Island. Each itinerary includes breathwork spots, low-crowd timing, and ambient sound pairings to calm the nervous system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best trip to take when I need a fresh start?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fresh start is a \"Leap\" journey. DepartMe builds these around cities that reward reinvention — Berlin, Buenos Aires, Taipei, Marrakech. Itineraries include neighborhood exploration, conversations with locals, creative workshops, and morning rituals designed to help you step into a new version of yourself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I travel when I feel lonely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Loneliness calls for a \"Belong\" journey. DepartMe designs itineraries around places with strong communal culture — Italian piazzas, Japanese onsen towns, Colombian village markets, Portuguese tascas. These journeys prioritize third places (cafés, markets, public squares) and gentle social rituals that create connection without pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I go when I feel numb and need to feel something again?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Numbness responds to DepartMe's \"Wake Up\" journeys — designed around sensory-rich, high-contrast environments that jolt your emotional system back online. Think Fez's medina, Naples' chaos, Oaxaca's colors, or Iceland's geothermal landscapes. Itineraries include spice markets, cold water immersion, sunrise hikes, and live music — experiences that bypass the head and hit the body."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best reset trips for mental clarity (not therapy)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DepartMe is built for exactly this — emotional reset through travel, not therapy. Every journey combines place, ritual, and rhythm to help you shift your mental state. The best reset trips pair a low-stimulation natural environment (coast, forest, mountains) with a slow-paced city, daily rituals (walking, tea, journaling, silence), and ambient soundscapes. It's experience design, not treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I plan a mood-based trip instead of choosing a destination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On DepartMe, you start by choosing how you feel — burned out, heartbroken, restless, curious, lonely, stuck, numb, or celebrating. Based on your mood, DepartMe matches you with a journey theme (Disappear, Heal, Escape, Explore, Leap, Belong, Quiet, Motion, Wake Up, or Radiate) and builds a full itinerary with city and nature pairings, daily rhythms, cafés, walking routes, rituals, and soundscapes."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+/* ========== RESET & BASE ========== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,sans-serif;background:#0a0a0f;color:#e8e4df;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+ul{list-style:none}
+
+/* ========== CSS VARIABLES ========== */
+:root{
+  --c-bg:#0a0a0f;
+  --c-surface:#13131a;
+  --c-surface-2:#1a1a24;
+  --c-border:#2a2a3a;
+  --c-text:#e8e4df;
+  --c-text-muted:#9a96a6;
+  --c-accent:#c9a87c;
+  --c-accent-light:#e4c9a0;
+  --c-glow:rgba(201,168,124,0.15);
+  --c-mood-heal:#7ecba1;
+  --c-mood-escape:#6db3f2;
+  --c-mood-disappear:#b09cd8;
+  --c-mood-explore:#f2c46d;
+  --c-mood-leap:#f27d6d;
+  --c-mood-belong:#e88bc4;
+  --c-mood-quiet:#8bc4e8;
+  --c-mood-motion:#c4e88b;
+  --c-mood-wakeup:#f2a56d;
+  --c-mood-radiate:#f2e46d;
+  --max-w:1200px;
+  --section-pad:clamp(4rem, 10vw, 8rem) clamp(1rem, 5vw, 2rem);
+}
+
+/* ========== UTILITY ========== */
+.container{max-width:var(--max-w);margin:0 auto;padding:0 clamp(1rem,5vw,2rem)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* ========== AMBIENT BACKGROUND ========== */
+.ambient-bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;overflow:hidden}
+.ambient-bg .orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.25;animation:orbFloat 20s ease-in-out infinite}
+.ambient-bg .orb:nth-child(1){width:500px;height:500px;background:var(--c-mood-disappear);top:-10%;left:-10%;animation-delay:0s}
+.ambient-bg .orb:nth-child(2){width:400px;height:400px;background:var(--c-mood-escape);bottom:-10%;right:-10%;animation-delay:-7s}
+.ambient-bg .orb:nth-child(3){width:300px;height:300px;background:var(--c-accent);top:50%;left:50%;animation-delay:-14s}
+@keyframes orbFloat{
+  0%,100%{transform:translate(0,0) scale(1)}
+  33%{transform:translate(60px,-40px) scale(1.1)}
+  66%{transform:translate(-40px,60px) scale(0.9)}
+}
+
+/* ========== HEADER / NAV ========== */
+.site-header{position:fixed;top:0;left:0;width:100%;z-index:100;padding:1rem 0;transition:background .3s,backdrop-filter .3s}
+.site-header.scrolled{background:rgba(10,10,15,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--c-border)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.4rem;font-weight:700;letter-spacing:-.02em;color:var(--c-text)}
+.logo span{color:var(--c-accent)}
+.nav-links{display:flex;gap:2rem;align-items:center}
+.nav-links a{font-size:.875rem;color:var(--c-text-muted);transition:color .2s;letter-spacing:.02em;text-transform:uppercase;font-weight:500}
+.nav-links a:hover{color:var(--c-accent)}
+.nav-cta{background:var(--c-accent)!important;color:#0a0a0f!important;padding:.5rem 1.25rem;border-radius:100px;font-weight:600!important;transition:transform .2s,box-shadow .2s!important}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 20px var(--c-glow)}
+.mobile-toggle{display:none;background:none;border:none;color:var(--c-text);cursor:pointer;padding:.5rem}
+.mobile-toggle svg{width:24px;height:24px}
+
+@media(max-width:768px){
+  .nav-links{position:fixed;top:0;right:-100%;width:75%;max-width:320px;height:100vh;background:var(--c-surface);flex-direction:column;padding:5rem 2rem 2rem;gap:1.5rem;transition:right .35s cubic-bezier(.4,0,.2,1);box-shadow:-10px 0 40px rgba(0,0,0,.5)}
+  .nav-links.open{right:0}
+  .nav-links a{font-size:1.1rem}
+  .mobile-toggle{display:block;z-index:101}
+  .mobile-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:99}
+  .mobile-overlay.open{display:block}
+}
+
+/* ========== HERO ========== */
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:var(--section-pad);position:relative}
+.hero-content{max-width:800px}
+.hero-tagline{font-size:clamp(.85rem,2vw,1rem);text-transform:uppercase;letter-spacing:.15em;color:var(--c-accent);margin-bottom:1.5rem;font-weight:500}
+.hero h1{font-size:clamp(2.2rem,6vw,4.5rem);font-weight:800;line-height:1.08;letter-spacing:-.03em;margin-bottom:1.5rem}
+.hero h1 .gradient{background:linear-gradient(135deg,var(--c-accent),var(--c-mood-escape),var(--c-mood-disappear));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:clamp(1rem,2.5vw,1.35rem);color:var(--c-text-muted);max-width:600px;margin:0 auto 2.5rem;line-height:1.7}
+.hero-ctas{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 2rem;border-radius:100px;font-size:1rem;font-weight:600;transition:all .25s;cursor:pointer;border:none}
+.btn-primary{background:var(--c-accent);color:#0a0a0f}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px var(--c-glow)}
+.btn-secondary{background:transparent;color:var(--c-text);border:1px solid var(--c-border)}
+.btn-secondary:hover{border-color:var(--c-accent);color:var(--c-accent)}
+.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);animation:scrollBounce 2s infinite}
+@keyframes scrollBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+.hero-scroll svg{width:24px;height:24px;color:var(--c-text-muted)}
+
+/* ========== MOOD SELECTOR ========== */
+.mood-section{padding:var(--section-pad);position:relative}
+.section-label{font-size:clamp(.8rem,1.5vw,.9rem);text-transform:uppercase;letter-spacing:.15em;color:var(--c-accent);margin-bottom:.75rem;font-weight:500}
+.section-title{font-size:clamp(1.8rem,4vw,3rem);font-weight:700;letter-spacing:-.02em;margin-bottom:1rem}
+.section-desc{font-size:clamp(.95rem,2vw,1.1rem);color:var(--c-text-muted);max-width:550px;margin-bottom:3rem;line-height:1.7}
+.mood-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem}
+.mood-card{position:relative;background:var(--c-surface);border:1px solid var(--c-border);border-radius:16px;padding:1.5rem;text-align:center;cursor:pointer;transition:all .3s;overflow:hidden}
+.mood-card::before{content:'';position:absolute;inset:0;opacity:0;transition:opacity .3s;border-radius:16px}
+.mood-card:hover{transform:translateY(-4px);border-color:transparent}
+.mood-card:hover::before{opacity:.12}
+.mood-card[data-mood="disappear"]::before{background:var(--c-mood-disappear)}
+.mood-card[data-mood="heal"]::before{background:var(--c-mood-heal)}
+.mood-card[data-mood="escape"]::before{background:var(--c-mood-escape)}
+.mood-card[data-mood="explore"]::before{background:var(--c-mood-explore)}
+.mood-card[data-mood="leap"]::before{background:var(--c-mood-leap)}
+.mood-card[data-mood="belong"]::before{background:var(--c-mood-belong)}
+.mood-card[data-mood="quiet"]::before{background:var(--c-mood-quiet)}
+.mood-card[data-mood="motion"]::before{background:var(--c-mood-motion)}
+.mood-card[data-mood="wakeup"]::before{background:var(--c-mood-wakeup)}
+.mood-card[data-mood="radiate"]::before{background:var(--c-mood-radiate)}
+.mood-card .mood-icon{font-size:2rem;margin-bottom:.75rem;position:relative;z-index:1}
+.mood-card .mood-name{font-weight:700;font-size:1.05rem;position:relative;z-index:1;margin-bottom:.25rem}
+.mood-card .mood-feeling{font-size:.8rem;color:var(--c-text-muted);position:relative;z-index:1}
+.mood-card:hover .mood-name{color:#fff}
+
+@media(max-width:768px){
+  .mood-grid{grid-template-columns:repeat(2,1fr);gap:.75rem}
+  .mood-card{padding:1.25rem 1rem}
+}
+
+/* ========== HOW IT WORKS ========== */
+.how-section{padding:var(--section-pad)}
+.how-section .section-label,.how-section .section-title,.how-section .section-desc{text-align:center;margin-left:auto;margin-right:auto}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:1rem;position:relative}
+.steps::before{content:'';position:absolute;top:3rem;left:15%;right:15%;height:2px;background:linear-gradient(90deg,transparent,var(--c-border),transparent)}
+.step{text-align:center;position:relative}
+.step-num{width:3.5rem;height:3.5rem;border-radius:50%;background:var(--c-surface-2);border:2px solid var(--c-accent);display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;font-weight:700;font-size:1.1rem;color:var(--c-accent);position:relative;z-index:1}
+.step h3{font-size:1.15rem;font-weight:700;margin-bottom:.5rem}
+.step p{color:var(--c-text-muted);font-size:.95rem;max-width:280px;margin:0 auto;line-height:1.6}
+@media(max-width:768px){
+  .steps{grid-template-columns:1fr;gap:2.5rem}
+  .steps::before{display:none}
+}
+
+/* ========== JOURNEY PREVIEW ========== */
+.journey-section{padding:var(--section-pad)}
+.journey-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem}
+.journey-card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:20px;overflow:hidden;transition:all .3s;cursor:pointer}
+.journey-card:hover{transform:translateY(-4px);box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.journey-img{height:200px;position:relative;overflow:hidden}
+.journey-img .gradient-fill{position:absolute;inset:0}
+.journey-card[data-theme="disappear"] .gradient-fill{background:linear-gradient(135deg,#2d1b4e,#1a1035)}
+.journey-card[data-theme="heal"] .gradient-fill{background:linear-gradient(135deg,#1b4e2d,#0d3520)}
+.journey-card[data-theme="escape"] .gradient-fill{background:linear-gradient(135deg,#1b354e,#0d2035)}
+.journey-img .journey-tag{position:absolute;top:1rem;left:1rem;background:rgba(0,0,0,.5);backdrop-filter:blur(10px);padding:.35rem .85rem;border-radius:100px;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+.journey-img .journey-places{position:absolute;bottom:1rem;left:1rem;right:1rem;display:flex;gap:.5rem;flex-wrap:wrap}
+.journey-img .place-chip{background:rgba(255,255,255,.12);backdrop-filter:blur(8px);padding:.25rem .65rem;border-radius:100px;font-size:.7rem;font-weight:500}
+.journey-body{padding:1.25rem 1.5rem 1.5rem}
+.journey-body h3{font-size:1.15rem;font-weight:700;margin-bottom:.35rem}
+.journey-body p{color:var(--c-text-muted);font-size:.9rem;line-height:1.6;margin-bottom:1rem}
+.journey-meta{display:flex;gap:1rem;font-size:.8rem;color:var(--c-text-muted)}
+.journey-meta span{display:flex;align-items:center;gap:.3rem}
+@media(max-width:600px){
+  .journey-cards{grid-template-columns:1fr}
+}
+
+/* ========== PHILOSOPHY ========== */
+.philosophy-section{padding:var(--section-pad);text-align:center}
+.philosophy-section .section-label,.philosophy-section .section-title{margin-left:auto;margin-right:auto}
+.philosophy-quote{font-size:clamp(1.5rem,3.5vw,2.5rem);font-weight:700;letter-spacing:-.02em;line-height:1.3;max-width:750px;margin:0 auto 2rem}
+.philosophy-quote .highlight{color:var(--c-accent)}
+.philosophy-sub{color:var(--c-text-muted);font-size:clamp(.95rem,2vw,1.1rem);max-width:600px;margin:0 auto 3rem;line-height:1.7}
+.philosophy-features{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1.5rem;max-width:900px;margin:0 auto}
+.phil-feature{background:var(--c-surface);border:1px solid var(--c-border);border-radius:16px;padding:1.5rem;text-align:left}
+.phil-feature .pf-icon{font-size:1.5rem;margin-bottom:.75rem}
+.phil-feature h4{font-weight:700;margin-bottom:.35rem;font-size:1rem}
+.phil-feature p{color:var(--c-text-muted);font-size:.85rem;line-height:1.5}
+
+/* ========== FAQ ========== */
+.faq-section{padding:var(--section-pad)}
+.faq-section .section-label,.faq-section .section-title,.faq-section .section-desc{text-align:center;margin-left:auto;margin-right:auto}
+.faq-list{max-width:700px;margin:0 auto}
+.faq-item{border-bottom:1px solid var(--c-border)}
+.faq-question{width:100%;background:none;border:none;color:var(--c-text);font-size:1.05rem;font-weight:600;padding:1.25rem 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left;font-family:inherit;gap:1rem}
+.faq-question svg{flex-shrink:0;transition:transform .3s;color:var(--c-text-muted);width:20px;height:20px}
+.faq-item.open .faq-question svg{transform:rotate(45deg);color:var(--c-accent)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.faq-answer p{color:var(--c-text-muted);font-size:.95rem;line-height:1.7;padding-bottom:1.25rem}
+
+/* ========== CTA SECTION ========== */
+.cta-section{padding:var(--section-pad);text-align:center}
+.cta-box{background:var(--c-surface);border:1px solid var(--c-border);border-radius:24px;padding:clamp(2.5rem,6vw,4rem);max-width:700px;margin:0 auto;position:relative;overflow:hidden}
+.cta-box::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at center,var(--c-glow),transparent 60%);pointer-events:none}
+.cta-box h2{font-size:clamp(1.6rem,3.5vw,2.5rem);font-weight:700;margin-bottom:1rem;position:relative}
+.cta-box p{color:var(--c-text-muted);font-size:clamp(.95rem,2vw,1.1rem);margin-bottom:2rem;position:relative;line-height:1.7}
+.cta-box .btn{position:relative}
+
+/* ========== FOOTER ========== */
+.site-footer{border-top:1px solid var(--c-border);padding:3rem 0 2rem}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2.5rem}
+.footer-brand p{color:var(--c-text-muted);font-size:.9rem;margin-top:.75rem;line-height:1.6;max-width:300px}
+.footer-col h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:var(--c-text-muted);margin-bottom:1rem;font-weight:600}
+.footer-col a{display:block;color:var(--c-text-muted);font-size:.9rem;padding:.3rem 0;transition:color .2s}
+.footer-col a:hover{color:var(--c-accent)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:1.5rem;border-top:1px solid var(--c-border);font-size:.8rem;color:var(--c-text-muted)}
+@media(max-width:768px){
+  .footer-grid{grid-template-columns:1fr 1fr;gap:1.5rem}
+  .footer-brand{grid-column:1/-1}
+  .footer-bottom{flex-direction:column;gap:.75rem;text-align:center}
+}
+
+/* ========== ANIMATIONS ========== */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:.1s}
+.reveal-delay-2{transition-delay:.2s}
+.reveal-delay-3{transition-delay:.3s}
+</style>
+</head>
+<body>
+
+<!-- Ambient Background -->
+<div class="ambient-bg" aria-hidden="true">
+  <div class="orb"></div>
+  <div class="orb"></div>
+  <div class="orb"></div>
+</div>
+
+<!-- Header -->
+<header class="site-header" role="banner">
+  <div class="container">
+    <a href="/" class="logo" aria-label="DepartMe Home">Depart<span>Me</span></a>
+    <nav class="nav-links" role="navigation" aria-label="Main navigation">
+      <a href="coming-soon.html">Moods</a>
+      <a href="coming-soon.html">Journeys</a>
+      <a href="coming-soon.html">Cities</a>
+      <a href="coming-soon.html">Rituals</a>
+      <a href="coming-soon.html">About</a>
+      <a href="coming-soon.html" class="nav-cta">Get Started</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+<div class="mobile-overlay" aria-hidden="true"></div>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <p class="hero-tagline reveal">Travel by Mood, Not Location</p>
+    <h1 class="reveal reveal-delay-1">Where do you need to go <span class="gradient">emotionally?</span></h1>
+    <p class="hero-sub reveal reveal-delay-2">You don't pick Paris or Tokyo. You pick what you want to feel. Then we build the journey that matches.</p>
+    <div class="hero-ctas reveal reveal-delay-3">
+      <a href="coming-soon.html" class="btn btn-primary">Choose Your Mood</a>
+      <a href="coming-soon.html" class="btn btn-secondary">How It Works</a>
+    </div>
+  </div>
+  <a href="#moods" class="hero-scroll" aria-label="Scroll down">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </a>
+</section>
+
+<!-- Mood Selector -->
+<section class="mood-section" id="moods">
+  <div class="container">
+    <p class="section-label reveal">Start Here</p>
+    <h2 class="section-title reveal">Pick a feeling.</h2>
+    <p class="section-desc reveal">We'll build the journey. Every mood unlocks destinations, rituals, soundscapes, and daily rhythms designed for emotional reset.</p>
+    <div class="mood-grid">
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="disappear">
+        <div class="mood-icon">&#x1F30A;</div>
+        <div class="mood-name">Disappear</div>
+        <div class="mood-feeling">Burned out</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="heal">
+        <div class="mood-icon">&#x1F33F;</div>
+        <div class="mood-name">Heal</div>
+        <div class="mood-feeling">Heartbroken</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="escape">
+        <div class="mood-icon">&#x2708;&#xFE0F;</div>
+        <div class="mood-name">Escape</div>
+        <div class="mood-feeling">Restless</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="explore">
+        <div class="mood-icon">&#x1F9ED;</div>
+        <div class="mood-name">Explore</div>
+        <div class="mood-feeling">Curious</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="leap">
+        <div class="mood-icon">&#x1F525;</div>
+        <div class="mood-name">Leap</div>
+        <div class="mood-feeling">Brave</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="belong">
+        <div class="mood-icon">&#x1F91D;</div>
+        <div class="mood-name">Belong</div>
+        <div class="mood-feeling">Lonely</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="quiet">
+        <div class="mood-icon">&#x1F54A;&#xFE0F;</div>
+        <div class="mood-name">Quiet</div>
+        <div class="mood-feeling">Overwhelmed</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="motion">
+        <div class="mood-icon">&#x1F6F4;</div>
+        <div class="mood-name">Motion</div>
+        <div class="mood-feeling">Stuck</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="wakeup">
+        <div class="mood-icon">&#x26A1;</div>
+        <div class="mood-name">Wake Up</div>
+        <div class="mood-feeling">Numb</div>
+      </a>
+      <a href="coming-soon.html" class="mood-card reveal" data-mood="radiate">
+        <div class="mood-icon">&#x2728;</div>
+        <div class="mood-name">Radiate</div>
+        <div class="mood-feeling">Celebrating</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works -->
+<section class="how-section" id="how">
+  <div class="container">
+    <p class="section-label reveal">The Process</p>
+    <h2 class="section-title reveal">Three steps to emotional reset.</h2>
+    <p class="section-desc reveal">No algorithms. No ads. Just mood, place, and ritual — designed to move you through what you're feeling.</p>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <h3>Choose a Mood</h3>
+        <p>Tell us what you're feeling. Burnout, heartbreak, restlessness, curiosity — there's a journey for each.</p>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="step-num">2</div>
+        <h3>Get a Journey</h3>
+        <p>We pair cities with nature, cafes with walking routes, morning rituals with night soundscapes.</p>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="step-num">3</div>
+        <h3>Feel the Shift</h3>
+        <p>Follow the rhythm. Day by day, place by place, your emotional landscape changes with you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Journey Previews -->
+<section class="journey-section" id="journeys">
+  <div class="container">
+    <p class="section-label reveal">Featured Journeys</p>
+    <h2 class="section-title reveal">Journeys built for how you feel.</h2>
+    <p class="section-desc reveal">Full itineraries with city + nature pairings, daily rhythms, rituals, and soundscapes. Each one designed around a single emotional intention.</p>
+    <div class="journey-cards">
+      <a href="coming-soon.html" class="journey-card reveal" data-theme="disappear">
+        <div class="journey-img">
+          <div class="gradient-fill"></div>
+          <span class="journey-tag">Disappear</span>
+          <div class="journey-places">
+            <span class="place-chip">Azores, Portugal</span>
+            <span class="place-chip">7 days</span>
+          </div>
+        </div>
+        <div class="journey-body">
+          <h3>The Vanishing Point</h3>
+          <p>Volcanic lakes, empty coastlines, and morning fog. A week of disappearing into the mid-Atlantic.</p>
+          <div class="journey-meta">
+            <span>&#x1F30A; Ocean + Volcanic</span>
+            <span>&#x1F9D8; 5 Rituals</span>
+          </div>
+        </div>
+      </a>
+      <a href="coming-soon.html" class="journey-card reveal reveal-delay-1" data-theme="heal">
+        <div class="journey-img">
+          <div class="gradient-fill"></div>
+          <span class="journey-tag">Heal</span>
+          <div class="journey-places">
+            <span class="place-chip">Kyoto, Japan</span>
+            <span class="place-chip">5 days</span>
+          </div>
+        </div>
+        <div class="journey-body">
+          <h3>Temple Silence</h3>
+          <p>Bamboo groves, tea ceremonies, and stone gardens. A journey of quiet repair through ancient Kyoto.</p>
+          <div class="journey-meta">
+            <span>&#x1F33F; Forest + Temple</span>
+            <span>&#x1F9D8; 7 Rituals</span>
+          </div>
+        </div>
+      </a>
+      <a href="coming-soon.html" class="journey-card reveal reveal-delay-2" data-theme="escape">
+        <div class="journey-img">
+          <div class="gradient-fill"></div>
+          <span class="journey-tag">Escape</span>
+          <div class="journey-places">
+            <span class="place-chip">Medell&iacute;n + Jard&iacute;n</span>
+            <span class="place-chip">5 days</span>
+          </div>
+        </div>
+        <div class="journey-body">
+          <h3>The Altitude Shift</h3>
+          <p>Mountain city mornings, cloud forest hikes, and cafe culture that doesn't ask where you came from.</p>
+          <div class="journey-meta">
+            <span>&#x26F0;&#xFE0F; Mountain + Urban</span>
+            <span>&#x1F9D8; 4 Rituals</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Philosophy -->
+<section class="philosophy-section" id="philosophy">
+  <div class="container">
+    <p class="section-label reveal">Our Philosophy</p>
+    <h2 class="section-title reveal" style="margin-bottom:2rem">What we believe</h2>
+    <p class="philosophy-quote reveal">DepartMe gives people <span class="highlight">places that make feeling possible.</span></p>
+    <p class="philosophy-sub reveal">Not therapy. Not wellness hype. Just real places, real rituals, and real emotional shifts — designed with care, reviewed by humans.</p>
+    <div class="philosophy-features">
+      <div class="phil-feature reveal">
+        <div class="pf-icon">&#x1F9E0;</div>
+        <h4>Mood-First Design</h4>
+        <p>Every journey starts with an emotion, never a destination. The place follows the feeling.</p>
+      </div>
+      <div class="phil-feature reveal reveal-delay-1">
+        <div class="pf-icon">&#x1F3D4;&#xFE0F;</div>
+        <h4>City + Nature</h4>
+        <p>Every itinerary pairs urban energy with natural stillness. Both are essential for reset.</p>
+      </div>
+      <div class="phil-feature reveal reveal-delay-2">
+        <div class="pf-icon">&#x1F3B6;</div>
+        <h4>Ritual + Rhythm</h4>
+        <p>Small daily actions — a sunrise walk, a tea ritual, an evening sound — create the shift.</p>
+      </div>
+      <div class="phil-feature reveal reveal-delay-3">
+        <div class="pf-icon">&#x1F30D;</div>
+        <h4>12 Languages</h4>
+        <p>Mood is universal. DepartMe is built for global access from day one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <p class="section-label reveal">Questions</p>
+    <h2 class="section-title reveal">Frequently asked</h2>
+    <p class="section-desc reveal">Everything you want to know about mood-based travel.</p>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          Where should I travel when I'm burned out?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>When you're burned out, DepartMe recommends a "Disappear" journey — quiet coastal towns like the Azores, forest retreats in rural Japan, or the Scottish Highlands. These itineraries pair low-stimulation environments with rituals like morning silence, analog cafes, ocean walks, and ambient soundscapes to help your nervous system decompress.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          Where should I go when I'm heartbroken?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>Heartbreak calls for a "Heal" journey. DepartMe builds itineraries around places that hold space for grief without forcing positivity — think Kyoto's temple gardens, Portugal's quiet Alentejo coast, or the stillness of rural Iceland. Each journey includes daily rituals like tea ceremonies, journaling prompts, and sunset walks designed to move through sadness, not around it.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          Where can I travel to disappear for a few days?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>DepartMe's "Disappear" journeys are built exactly for this. They take you to places where you can drop off the grid — volcanic islands, remote coastal villages, deep forest retreats. Itineraries include 3-day and 7-day options with minimal planning required, paired with rituals for solitude and sensory quiet.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          What are the best places to travel when I feel stuck in life?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>Feeling stuck calls for a "Motion" journey. DepartMe pairs cities with strong walking culture — Lisbon's hills, Tokyo's endless neighborhoods, Mexico City's layered districts — with nature that physically moves you: coastal trails, mountain passes, river walks. The goal is to break the feeling of stagnation through literal and emotional movement.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          Where should I go when I'm anxious and overwhelmed?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>Anxiety and overwhelm respond to DepartMe's "Quiet" journeys — destinations chosen for low sensory load, gentle natural environments, and slow daily rhythms. Think Norwegian fjord towns, rural Provence, or New Zealand's South Island. Each itinerary includes breathwork spots, low-crowd timing, and ambient sound pairings to calm the nervous system.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          What's the best trip to take when I need a fresh start?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>A fresh start is a "Leap" journey. DepartMe builds these around cities that reward reinvention — Berlin, Buenos Aires, Taipei, Marrakech. Itineraries include neighborhood exploration, conversations with locals, creative workshops, and morning rituals designed to help you step into a new version of yourself.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          Where should I travel when I feel lonely?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>Loneliness calls for a "Belong" journey. DepartMe designs itineraries around places with strong communal culture — Italian piazzas, Japanese onsen towns, Colombian village markets, Portuguese tascas. These journeys prioritize third places (cafes, markets, public squares) and gentle social rituals that create connection without pressure.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          Where should I go when I feel numb and need to feel something again?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>Numbness responds to DepartMe's "Wake Up" journeys — designed around sensory-rich, high-contrast environments that jolt your emotional system back online. Think Fez's medina, Naples' chaos, Oaxaca's colors, or Iceland's geothermal landscapes. Itineraries include spice markets, cold water immersion, sunrise hikes, and live music — experiences that bypass the head and hit the body.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          What are the best "reset" trips for mental clarity (not therapy)?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>DepartMe is built for exactly this — emotional reset through travel, not therapy. Every journey combines place, ritual, and rhythm to help you shift your mental state. The best reset trips pair a low-stimulation natural environment (coast, forest, mountains) with a slow-paced city, daily rituals (walking, tea, journaling, silence), and ambient soundscapes. It's experience design, not treatment.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          How do I plan a mood-based trip instead of choosing a destination?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer"><p>On DepartMe, you start by choosing how you feel — burned out, heartbroken, restless, curious, lonely, stuck, numb, or celebrating. Based on your mood, we match you with a journey theme (Disappear, Heal, Escape, Explore, Leap, Belong, Quiet, Motion, Wake Up, or Radiate) and build a full itinerary with city and nature pairings, daily rhythms, cafes, walking routes, rituals, and soundscapes.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal">
+      <h2>Ready to depart your current state?</h2>
+      <p>Pick a feeling. We'll build the journey. No destination needed — just emotional intention.</p>
+      <a href="coming-soon.html" class="btn btn-primary">Choose Your Mood</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo">Depart<span>Me</span></a>
+        <p>Travel by Mood, Not Location. Experience design for emotional reset — through place, ritual, and rhythm.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="coming-soon.html">Moods</a>
+        <a href="coming-soon.html">Journeys</a>
+        <a href="coming-soon.html">Cities</a>
+        <a href="coming-soon.html">Nature</a>
+      </div>
+      <div class="footer-col">
+        <h4>Experience</h4>
+        <a href="coming-soon.html">Rituals</a>
+        <a href="coming-soon.html">Soundscapes</a>
+        <a href="coming-soon.html">Walking Routes</a>
+        <a href="coming-soon.html">Collections</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="coming-soon.html">About</a>
+        <a href="coming-soon.html">Stories</a>
+        <a href="coming-soon.html">Legal</a>
+        <a href="coming-soon.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 DepartMe.com. All rights reserved.</p>
+      <p>Not therapy. Not medical advice. Experience design for emotional reset.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ========== MOBILE NAV ========== */
+(function(){
+  var toggle=document.querySelector('.mobile-toggle');
+  var nav=document.querySelector('.nav-links');
+  var overlay=document.querySelector('.mobile-overlay');
+  function openNav(){nav.classList.add('open');overlay.classList.add('open');toggle.setAttribute('aria-expanded','true');document.body.style.overflow='hidden'}
+  function closeNav(){nav.classList.remove('open');overlay.classList.remove('open');toggle.setAttribute('aria-expanded','false');document.body.style.overflow=''}
+  toggle.addEventListener('click',function(){nav.classList.contains('open')?closeNav():openNav()});
+  overlay.addEventListener('click',closeNav);
+  nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeNav)});
+})();
+
+/* ========== HEADER SCROLL ========== */
+(function(){
+  var header=document.querySelector('.site-header');
+  var last=0;
+  window.addEventListener('scroll',function(){
+    var y=window.scrollY;
+    if(y>50)header.classList.add('scrolled');else header.classList.remove('scrolled');
+    last=y;
+  },{passive:true});
+})();
+
+/* ========== REVEAL ON SCROLL ========== */
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}});
+  },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(el){io.observe(el)});
+})();
+
+/* ========== FAQ ACCORDION ========== */
+(function(){
+  document.querySelectorAll('.faq-question').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var item=this.parentElement;
+      var answer=item.querySelector('.faq-answer');
+      var open=item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(i){
+        i.classList.remove('open');
+        i.querySelector('.faq-answer').style.maxHeight=null;
+        i.querySelector('.faq-question').setAttribute('aria-expanded','false');
+      });
+      if(!open){item.classList.add('open');answer.style.maxHeight=answer.scrollHeight+'px';this.setAttribute('aria-expanded','true')}
+    });
+  });
+})();
+
+/* ========== MOOD CARD HOVER GLOW ========== */
+(function(){
+  document.querySelectorAll('.mood-card').forEach(function(card){
+    card.addEventListener('mouseenter',function(){this.style.boxShadow='0 10px 40px rgba(201,168,124,0.1)'});
+    card.addEventListener('mouseleave',function(){this.style.boxShadow='none'});
+  });
+})();
+</script>
+</body>
+</html>
